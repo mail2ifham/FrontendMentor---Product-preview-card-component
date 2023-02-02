@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-using-bootstrap-and-css-Mp24J_mcGJ))
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-using-bootstrap-and-css-Mp24J_mcGJ)
 - Live Site URL: [Live Site](https://mail2ifham.github.io/FrontendMentor-Product-preview-card-component/)
 
 ## My process
