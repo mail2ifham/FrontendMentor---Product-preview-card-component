@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+}
+
+.main {
+    margin: 5% auto 5% auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 468px;
+    border-radius: 10px;
+}
+
+/* image */
+.productImg {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+}
+
+/* productDetails */
+.productDetails {
+    padding: 30px 50px 30px 25px;
+}
+
+.productDetailsHead {
+    font-size: 13px;
+    letter-spacing: 5px;
+    color: hsl(158, 36%, 37%);
+}
+
+.productDetails h6 {
+    font-weight: 700;
+}
+
+.productDetails h2 {
+    font-family: 'Fraunces', serif;
+}
+
+.productDetails p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: hsl(158, 36%, 37%);
+}
+
+#price {
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+
+}
+.offer {
+    font-size: 13px;
+    font-family: 'Montserrat';
+    padding-left: 15px;
+    text-decoration: line-through;
+    vertical-align:5px;
+}
+
+.btn {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-color:  hsl(158, 36%, 37%);
+    background-color:  hsl(158, 36%, 37%);
+    width:100%;
+}
+.btn:hover{
+    background-color: hsl(150, 30%, 21%);
+    color: white;
+}
+.btn:active {
+    background-color:  hsl(158, 36%, 37%) !important;
+    color:  white !important;
+}
+
+/* footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 576px) {
+
+    .main {
+        padding: 0;
+        width: 375px;
+        height: 675px;
+        text-align: center;
+        
+    }
+    .productImg {
+        content: url(./images/image-product-mobile.jpg);
+        border-radius: 10px 10px 0 0;
+        width: 375px;
+    }
+
+    
+    
+}
+
+/* Mobile: 375px
+Desktop: 1440px
+***Colors*****
+Primary
+Dark cyan: hsl(158, 36%, 37%)
+Cream: hsl(30, 38%, 92%)
+Neutral
+Very dark blue: hsl(212, 21%, 14%)
+Dark grayish blue: hsl(228, 12%, 48%)
+White: hsl(0, 0%, 100%)
+****Typography*****
+Body Copy
+Font size (paragraph): 14px
+Font
+Family: Montserrat
+
+Weights: 500, 700
+
+Family: Fraunces
+
+Weights: 700 */
